@@ -42,7 +42,7 @@ function App({demo = false}: PropsType) {
     };
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={"todolist_ts"}>
             <div className="App">
                 <ErrorSnackbar/>
                 <AppBar position="static">
